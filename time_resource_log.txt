@@ -1,0 +1,21 @@
+Total Time Spent:
+- Data Exploration: 2 hours
+- Literature Reading: 3 hours
+- Implementation: 8 hours
+- Training & Evaluation: 10 hours
+- Report Writing: 3 hours
+
+Hardware Used:
+- NVIDIA GeForce MX450 (2GB VRAM)
+- CUDA-enabled PyTorch
+- Windows 11
+- Local Machine
+
+Training Details:
+- Approximate Training Time per Epoch: 30–40 minutes
+- Total Training Time: ~6 hours
+
+Constraints:
+- Limited GPU memory
+- Local compute limitations
+- Large TIFF dataset size

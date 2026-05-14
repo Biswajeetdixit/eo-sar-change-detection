@@ -1,6 +1,21 @@
-lr: 1e-4
-batch_size: 4
-epochs: 30
+model: SiameseUNet
+
+image_size: 128
+batch_size: 2
+epochs: 10
+
 optimizer: AdamW
-loss: BCE + Dice
-image_size: 256
+learning_rate: 0.0001
+
+loss:
+  - BCE
+  - DiceLoss
+
+dataset:
+  train_path: data/train
+  val_path: data/val
+  test_path: data/test
+
+device: cuda
+
+seed: 42
