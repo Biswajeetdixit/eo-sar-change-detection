@@ -1,0 +1,6 @@
+lr: 1e-4
+batch_size: 4
+epochs: 30
+optimizer: AdamW
+loss: BCE + Dice
+image_size: 256

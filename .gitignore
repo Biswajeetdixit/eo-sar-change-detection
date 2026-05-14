@@ -1,0 +1,18 @@
+# Dataset
+data/
+
+# Virtual Environment
+venv/
+
+# Model Weights
+*.pth
+
+# Python Cache
+__pycache__/
+*.pyc
+
+# VS Code
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
